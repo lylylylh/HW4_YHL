@@ -1,0 +1,10 @@
+git commit -m "A"
+git checkout -b develop
+git commit -am "B"
+git checkout master
+git commit -am "C"
+git merge develop (i, D, :wq)
+git checkout develop
+git commit -am "E"
+git merge develop (i, F, :wq)
+git checkout develop
